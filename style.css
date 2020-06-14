@@ -124,13 +124,124 @@ main {
 
 .icons__items{
     text-align: center;
-    padding: 60px 0;
+    padding: 30px 0;
 }
 .icons__items img{
     padding: 0 30px;
 }
+.mobile {
+    background: #F1F5FF;
+    width: 100%;
+    position: relative;
+}
+.mobile-items {
+    display: flex;
+}
+
+.mobile__left{
+    padding-top: 208px;
+    margin-left: 270px;
+    width: 400px;
+}
+.mobile__uppertitle{
+    font-family: Roboto, sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: #3D4F9F;
+    margin-bottom: 27px;
+}
+.mobile__title{
+    font-family: Quicksand, sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    color: #3D4F9F;
+    margin-bottom: 27px;
+}
+.mobile__text {
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    line-height: 29px;
+    color: #8D96BD;
+}
+.mobile__right__laptop {
+    position: absolute;
+    right: 80px;
+    border-radius: 5px;
+    margin-top: 150px;
+    background: white;
+    width: 539px;
+    height: 336px;
+    box-shadow: 0px 20px 40px rgba(53, 60, 115, 0.15);
+    
+}
+.mobile__right__laptop img {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.mobile__left__buttons{
+    margin-top: 47px;
+    padding-bottom: 216px;
+    display: flex;
+}
+.mobile__leftbtn{
+    background: #4C85FF;
+    color: white;
+    width: 130px;
+    font-family: Quicksand, sans-serif;
+    font-size: 13px;
+    box-shadow: 0px 5px 15px rgba(188, 199, 255, 0.75);
+    border-radius: 2px;
+}
+.mobile__rightbtn{
+    border: 1px solid #D1D1E4;
+    color: #ADB4D2;
+    font-family: Quicksand, sans-serif;
+    font-size: 13px;
+    border-radius: 2px;
+    width: 130px;
 
 
+}
+.mobile__right__lapbtm {
+    position: absolute;
+    top: 480px;
+    right: 48px;
+    background: white;
+    width: 606px;
+    height: 19.8px;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0px 20px 40px rgba(53, 60, 115, 0.15);
+}
+.mobile__right__mob1{
+    position: absolute;
+    background: white;
+    width: 107px;
+    height: 214px;
+    top: 270px;
+    right: 594px;
+    border-radius: 10px;
+    box-shadow: 0px 20px 40px rgba(53, 60, 115, 0.15);
+
+}
+.mobile__right__mob1 img{
+    position: absolute;
+    top: 11px;
+}
+.mobile__right__mob2{
+    background: white;
+    width: 148px;
+    height: 280px;
+    border-radius: 15px;
+    box-shadow: 0px 20px 40px rgba(53, 60, 115, 0.15);
+    position: absolute;
+    top: 326px;
+    right: 110px;
+}
+.mobile__right__mob2 img{
+    position: absolute;
+    top: 9px;
+}
 
 
 @media screen and (max-width: 1010px){
@@ -163,6 +274,7 @@ main {
     .icons__items{
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
     .icons__items img{
         width: 60%;
